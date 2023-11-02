@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    /* background-color: black; */
+}
+.nav{
+    height: 50px;
+   width: 200vw;
+   background-color: black;
+    color: white;
+    display: flex;
+    /* gap: 0spx; */
+
+}
+.logo{
+display: flex;
+/* justify-content: space-between; */
+padding: 10px;
+
+}
+img{
+    height: 30px;
+    
+}
+.name{
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+  font-size: 16px;
+}
+.login{
+    display: flex;
+    gap: 20px;
+    margin-right:20px ;
+}
+p:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.fa-solid{
+    font-size: 20px;
+}
+<!-- <img class="pic2" src="https://www.royalenfield.com/content/dam/royal-enfield/india/gt-cup-2023/banners/main-banner-2023.png"> -->
+                <!-- <img class="pic3" src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/interceptor-home.png">
+                <img class="pic4" src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/scram-411/banners/desktop/scram-411-home.jpg">
+                <img class="pic5" src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/royal-enfield-order-tracking.gif">
+                <img class="pic6" src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/hunter-350-awards.png">
+                <img class="pic7" src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/motorcycle-of-the-year.jpg">
+                <img class="pic8" src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/service-cost-calculator.jpg"> -->

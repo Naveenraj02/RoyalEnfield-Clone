@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.overall{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+body{
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+}
+                                             /* NAVBAR 1 */
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+}
+img{
+    height: 30px;
+    
+}
+.name{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+  font-size: 16px;
+}
+.login{
+    display: flex;
+    gap: 20px;
+    margin-right:20px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.fa-solid{
+    font-size: 20px;
+}
+.container1{
+    display: flex;
+       justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: rgb(32, 30, 30);
+    margin-top: 20px;
+}
+h1{
+    display:block;
+}
+.pic1{
+    position: relative;
+    overflow: hidden;
+}
+.pic1>img:hover{
+    transform: scale(1.1);
+}
+.pic1>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}   
+.pic1>p{
+    position: absolute;
+    /* top:0; */
+    font-size: 35px;
+    bottom: 0;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.pic2{
+    position: relative;
+    overflow: hidden;
+}
+.pic2>img:hover{
+    transform: scale(1.1);
+}
+.pic2>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic2>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic2>p{
+    position: absolute;
+    bottom:0;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}    
+.pic3{
+    position: relative;
+    overflow: hidden;
+}
+.pic3>img:hover{
+    transform: scale(1.1);
+}
+.pic3>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic3>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic3>p{
+    position: absolute;
+    bottom:0;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+.pic4{
+    position: relative;
+    overflow: hidden;
+}
+.pic4>img:hover{
+    transform: scale(1.1);
+}
+.pic4>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic4>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic4>p{
+    position: absolute;
+    bottom:0;
+    font-size: 14px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 8px;
+    
+}
+.pic5{
+    position: relative;
+    overflow: hidden;
+}
+.pic5>img:hover{
+    transform: scale(1.1);
+}
+.pic5>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic5>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic5>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
+.pic6{
+    position: relative;
+    overflow: hidden;
+}
+.pic6>img:hover{
+    transform: scale(1.1);
+}
+.pic6>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic6>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic6>p{
+    position: absolute;
+    bottom:0;
+    font-size: 15px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 8px;
+    
+}
+.pic7{
+    position: relative;
+    overflow: hidden;
+}
+.pic7>img:hover{
+    transform: scale(1.1);
+}
+.pic7>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic7>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic7>p{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+.pic8{
+    position: relative;
+    overflow: hidden;
+}
+.pic8>img:hover{
+    transform: scale(1.1);
+}
+.pic8>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic8>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic8>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
+.pic9{
+    position: relative;
+    overflow: hidden;
+}
+.pic9>img:hover{
+    transform: scale(1.1);
+}
+.pic9>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic9>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic9>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}.pic10{
+    position: relative;
+    overflow: hidden;
+}
+.pic10>img:hover{
+    transform: scale(1.1);
+}
+.pic10>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic10>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic10>p{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}.pic11{
+    position: relative;
+    overflow: hidden;
+}
+.pic11>img:hover{
+    transform: scale(1.1);
+}
+.pic11>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic11>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic11>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}.pic12{
+    position: relative;
+    overflow: hidden;
+}
+.pic12>img:hover{
+    transform: scale(1.1);
+}
+.pic12>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic12>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic12>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 10px;
+    margin-left: 10px;
+    
+}.pic13{
+    position: relative;
+    overflow: hidden;
+}
+.pic13>img:hover{
+    transform: scale(1.1);
+}
+.pic13>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic13>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic13>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.pic14{
+    position: relative;
+    overflow: hidden;
+}
+.pic14>img:hover{
+    transform: scale(1.1);
+}
+.pic14>img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    transition: 0.5s;
+
+}
+.pic14>h3{
+position: absolute;
+bottom: 45px;
+margin-left: 10px;
+color: white;
+}
+.pic14>p{
+    position: absolute;
+    bottom:0;
+    font-size: 17px;
+    color: white;
+     margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+  /* Footer */
+                                            .bottom{
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                gap: 10px;
+                                                align-items: center;
+                                                justify-content: center;
+                                                background-color:black ;
+                                                color: white;
+                                                font-size: 20px ;
+                                                }
+                                                .bottom>i:hover{
+                                                cursor: pointer;
+                                                background-color: red;
+                                                }
+                                                .end{
+                                                padding-left: 10px;
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                padding: 40px;
+                                                justify-content: space-between;
+                                                background-color:black;
+                                                color: white;
+                                                font-size: 23px;
+                                                                      
+                                                }
+                                                .end>div h3{
+                                                font-size: 30px;
+                                                }
+                                                .end>div h3{
+                                                color: red;
+                                                }
+@media screen and (min-width:320px) and (max-width:800px) {
+    .name{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1440px){
+    .nav>label{
+        display: none;
+    }
+    .barname{
+        display: none;
+    }
+    input{
+        display:none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .name{
+        display: none;
+    }
+    .nav>label{
+        display: block;
+        margin-right: 40px;
+    }
+    .barname{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: center;
+        align-items:center ;
+        position:absolute;
+        font-size: 20px;
+        gap: 20px;
+        top: 60px;
+        left: -800px;
+        transition: all 2s linear;
+    }
+    .nav{
+        gap: 30px;
+        padding:10px
+    }
+    .nav>input{
+        display: none;
+    }  
+    input:checked~.barname{
+        left: 0;
+    }
+}
